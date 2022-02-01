@@ -7,38 +7,7 @@ nav_order: 6
 
 # About Me
 
-I am Andrea Pasqualini, a Career Development Fellow at the Department of Economics and Lincoln College, University of Oxford.
-This is my personal website.
-Think of it as an extended, modern CV.
+I am Tariq, a bad python programmer exploring different topics.
+This Blog is an extension of my private repos containing resources and a front for me to show my messed up brain.
 
-You can find me on [GitHub](https://github.com/AndreaPasqualini) and [Twitter](https://twitter.com/apsql), where you will find I prefer sharing code than tweets.
-I also have webpages at the [Department of Economics](https://www.economics.ox.ac.uk/people/andrea-pasqualini/) and [Lincoln College](https://lincoln.ox.ac.uk/people/dr-andrea-pasqualini), although they are not very interesting.
-
-This website is organized according to typical practices in Academia.
-This means that you will find the usual [research](research.md), [teaching](teaching.md) and [CV](cv.md) sections.
-As for other sections, read on.
-
-
-## Philosophy
-
-I work with computers.
-Any researcher works with computers.
-Theorists might only use LaTeX and empiricists might be more focused on numerical work, normally involving Python, Matlab, or Stata.
-Yet, we all have a common tool, which is the computer.
-I like it when people provide instructions on how to replicate what they do.
-I am not talking about the replication narrative researchers typically include in their papers.
-I talk about detailed, step by step instructions on any procedure that is not trivial.
-Typically these instructions come as code, but they do not need to.
-They can also be detailed instructions presented in a mix of code lines and explanatory text, such as a [Jupyter notebook](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#data-driven-journalism).
-This is why my research, whenever mature enough to go public, will come with a dedicated GitHub repository with data (when publicly available), code, replication instructions and whatnot may be necessary to replicate what I do.
-Research is a lot about building on the giant's shoulders.
-By doing this, I hope I will make it easier and faster for other people to catch up and get up and running with their thing.
-
-Research is not the only context where the above applies.
-Say you are a newly enrolled PhD student and you want to understand how to build your own personal website.
-You may still want to have some examples so you get your website up and running in a clear, fast and understandable way.
-The [Resources](resources.md) section of this website includes some of my own notes (not all of them are polished) that I disclose for other people to use.
-There, I hope you may find something useful to you.
-
-I advocate the [Open Source model](https://en.wikipedia.org/wiki/Open-source_model).
-This is why I strive to make my work open to other people for consultation, replication and reuse.
+Feel free to fork the website and make a better version or contribute to topics i explore through [email](tariqmohamed59@gmail.com)
