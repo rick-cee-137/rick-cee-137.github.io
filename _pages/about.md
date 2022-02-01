@@ -10,4 +10,4 @@ nav_order: 6
 I am Tariq, a bad python programmer exploring different topics.
 This Blog is an extension of my private repos containing resources and a front for me to show my messed up brain.
 
-Feel free to fork the website and make a better version or contribute to topics i explore through [email](tariqmohamed59@gmail.com)
+Feel free to fork the website and make a better version or contribute to topics i explore through [email](mailto:tariqmohamed59@gmail.com)
