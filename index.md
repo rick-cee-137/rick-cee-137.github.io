@@ -17,10 +17,10 @@ I work on building Machine learning systems as a profession and work on building
 You can read more about me in the [About page](/_pages/about.md).
 
 
-## News
+## Status:
 
 - Blog Created
 - Edit in progress
 - Vitals connected
 - Barebones connection established
-
+- Git connection established from local repo
