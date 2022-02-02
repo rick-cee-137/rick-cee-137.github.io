@@ -24,5 +24,7 @@ You can read more about me in the [About page](/_pages/about.md).
 - Vitals connected
 - Barebones connection established
 - Git connection established from local repo
+- channels created
+
 
 ---
