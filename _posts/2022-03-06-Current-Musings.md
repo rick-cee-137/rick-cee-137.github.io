@@ -1,8 +1,8 @@
---
+---
 layout: post
 title: Current_Musings
-parent: long
-permalink: /long/Current-Musings
+parent: short
+permalink: /short/Current-Musings
 ---
 
 # so a
