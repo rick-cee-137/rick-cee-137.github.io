@@ -5,4 +5,4 @@ parent: long
 permalink: /long/Current_Musings
 ---
 
-# so
+# so a
