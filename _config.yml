@@ -1,76 +1,95 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site Identity
+title: "Corners were cut here!"
+description: ""
+author: "Tariq"
 
-title: Tariq Mohamed
-# email:
-description: >- # this means to ignore newlines until "baseurl:"
-  
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rick-cee-137.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: rick-cee-137
+# URLs
+baseurl: "" 
+url: "https://rick-cee-137.github.io"
 
-# Build settings
-remote_theme: pmarsceill/just-the-docs
-# plugins:
-#   - jekyll-feed
+# Theme (Updated to current version)
+remote_theme: just-the-docs/just-the-docs
 
-# Enable or disable the site search
+# Essential Plugins
+plugins:
+  - jekyll-seo-tag      # SEO meta tags
+  - jekyll-sitemap      # Auto-generate sitemap
+  - jekyll-feed         # RSS feed (optional but recommended)
+  # - jekyll-github-metadata    # Only if you need GitHub data
+  - jekyll-include-cache      # Only if you have slow builds
+
+# Search
 search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
 
-# Aux links for upper right navigation link
-aux_links:
-  "Go to GitHub profile >":
-    - "https://github.com/rick-cee-137"
+# Navigation
+nav_external_links:
+  - title: GitHub Profile
+    url: https://github.com/rick-cee-137
+    hide_icon: false
 
-# Include pages into processing
-include: ["_pages", "_posts"]
-
-# Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2022 Tariq Mohamed.Distributed under the <a href=\"https://github.com/rick-cee-137/rick-cee-137.github.io/tree/main/LICENSE\">MIT license</a>."
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false/nil
+# UI Configuration
+color_scheme: light
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
 heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
 
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-# ga_tracking:
+# Footer
+footer_content: 'Copyright &copy; 2025 Tariq. Distributed under the <a href="https://github.com/rick-cee-137/rick-cee-137.github.io/blob/main/LICENSE">MIT license</a>.'
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Content Processing
+include: ["_pages", "_posts"]
+permalink: pretty
+
+# Blog/Post Settings
+show_excerpts: true
+paginate: 10
+
+# SEO Enhancement (works with jekyll-seo-tag)
+social:
+  name: Tariq
+  links:
+    - https://github.com/rick-cee-137
+
+# Default front matter for better SEO
+defaults:
+  # - scope:
+  #     path: ""
+  #     type: "posts"
+  #   values:
+  #     layout: "post"
+  #     author: "Tariq"
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default"
+
+# Performance (if you decide to use jekyll-include-cache)
+# liquid:
+#   error_mode: warn
+#   strict_filters: false
+#   strict_variables: false
